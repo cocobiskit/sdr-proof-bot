@@ -1,0 +1,348 @@
+{
+  "locations": [
+    {
+      "city_region": "Manchester",
+      "why_hotspot": "Northern powerhouse with strong tech and media scenes; high business growth index.",
+      "key_industries": ["Tech startups", "digital media"],
+      "notes": "2nd to London in new registrations."
+    },
+    {
+      "city_region": "Leeds",
+      "why_hotspot": "Rapidly expanding for mid-market firms; affordable compared to London.",
+      "key_industries": ["Finance", "legal services"],
+      "notes": "Top for business growth."
+    },
+    {
+      "city_region": "Birmingham",
+      "why_hotspot": "Central location with young entrepreneurs; improving infrastructure.",
+      "key_industries": ["Manufacturing", "retail"],
+      "notes": "Home to diverse startups."
+    },
+    {
+      "city_region": "Edinburgh",
+      "why_hotspot": "Innovation hub blending history and tech; strong in finance.",
+      "key_industries": ["Fintech", "education"],
+      "notes": "Attracts international talent; 3rd most attractive for new businesses."
+    },
+    {
+      "city_region": "Oxford",
+      "why_hotspot": "Academic-driven ecosystem; high R&D investment.",
+      "key_industries": ["Biotech", "AI"],
+      "notes": "Leads in innovation metrics; 4th-best for startups."
+    },
+    {
+      "city_region": "Bristol",
+      "why_hotspot": "Creative and green tech focus; vibrant startup scene.",
+      "key_industries": ["Aerospace", "creative industries"],
+      "notes": "Ranked #1 for startups in some 2025 metrics."
+    },
+    {
+      "city_region": "Glasgow",
+      "why_hotspot": "Affordable northern alternative with growing digital economy.",
+      "key_industries": ["Engineering", "renewables"],
+      "notes": ""
+    },
+    {
+      "city_region": "Cardiff",
+      "why_hotspot": "Youngest entrepreneurs; rising in Wales for media and tech.",
+      "key_industries": ["Broadcasting", "gaming"],
+      "notes": "Home to the youngest entrepreneurs; high entrepreneurial density."
+    },
+    {
+      "city_region": "Cambridge",
+      "why_hotspot": "World-class university ecosystem; biotech and tech leader.",
+      "key_industries": ["Biotech", "deep tech"],
+      "notes": "2nd-best city for startups in 2025 rankings."
+    },
+    {
+      "city_region": "Sheffield",
+      "why_hotspot": "Affordable, innovative steel-city revival with strong manufacturing ties.",
+      "key_industries": ["Advanced manufacturing", "health tech"],
+      "notes": "Rising in startup registrations."
+    },
+    {
+      "city_region": "Brighton and Hove",
+      "why_hotspot": "Creative coastal hub with digital nomad appeal.",
+      "key_industries": ["Digital agencies", "sustainable tech"],
+      "notes": "High per-capita startup activity."
+    },
+    {
+      "city_region": "Liverpool",
+      "why_hotspot": "Regenerating port city with focus on logistics and culture.",
+      "key_industries": ["Maritime tech", "tourism"],
+      "notes": "High entrepreneurial density."
+    }
+  ],
+  "business_types": [
+    {
+      "broad_sector": "Tech & Digital",
+      "example_industry": "Fintech startups",
+      "key_sic_codes": ["64999"],
+      "notes": "Financial intermediaries; Edinburgh's finance hub."
+    },
+    {
+      "broad_sector": "Tech & Digital",
+      "example_industry": "Edtech platforms",
+      "key_sic_codes": ["62012"],
+      "notes": "Software development; Oxford/Cambridge education ties."
+    },
+    {
+      "broad_sector": "Tech & Digital",
+      "example_industry": "Cybersecurity firms",
+      "key_sic_codes": ["62090"],
+      "notes": "IT services; Growing in Manchester tech scene."
+    },
+    {
+      "broad_sector": "Creative & Media",
+      "example_industry": "Film production",
+      "key_sic_codes": ["59111"],
+      "notes": "Motion picture production; Bristol creative industries."
+    },
+    {
+      "broad_sector": "Creative & Media",
+      "example_industry": "Graphic design studios",
+      "key_sic_codes": ["74100"],
+      "notes": "Specialized design; Common in Leeds/Brighton."
+    },
+    {
+      "broad_sector": "Healthcare & Biotech",
+      "example_industry": "Medtech devices",
+      "key_sic_codes": ["32500"],
+      "notes": "Medical instruments; Cambridge biotech leader."
+    },
+    {
+      "broad_sector": "Healthcare & Biotech",
+      "example_industry": "Telehealth services",
+      "key_sic_codes": ["86101"],
+      "notes": "Hospital activities; Post-pandemic growth in all cities."
+    },
+    {
+      "broad_sector": "Energy & Renewables",
+      "example_industry": "Solar installation",
+      "key_sic_codes": ["43210"],
+      "notes": "Electrical installation; Glasgow renewables focus."
+    },
+    {
+      "broad_sector": "Energy & Renewables",
+      "example_industry": "Wind energy consulting",
+      "key_sic_codes": ["71122"],
+      "notes": "Engineering design; Offshore potential in Liverpool."
+    },
+    {
+      "broad_sector": "Logistics & Supply Chain",
+      "example_industry": "E-commerce fulfillment",
+      "key_sic_codes": ["53200"],
+      "notes": "Courier activities; Birmingham logistics hub."
+    },
+    {
+      "broad_sector": "Logistics & Supply Chain",
+      "example_industry": "Third-party warehousing",
+      "key_sic_codes": ["52103"],
+      "notes": "Operation of warehousing; Manchester distribution."
+    },
+    {
+      "broad_sector": "Food & Beverage",
+      "example_industry": "Craft breweries",
+      "key_sic_codes": ["11050"],
+      "notes": "Manufacture of cider/beer; Sheffield/Edinburgh craft scene."
+    },
+    {
+      "broad_sector": "Food & Beverage",
+      "example_industry": "Organic food retail",
+      "key_sic_codes": ["47290"],
+      "notes": "Other retail in stores; Brighton sustainable focus."
+    },
+    {
+      "broad_sector": "Real Estate & Construction",
+      "example_industry": "Sustainable building",
+      "key_sic_codes": ["41100"],
+      "notes": "Development; Leeds property boom."
+    },
+    {
+      "broad_sector": "Real Estate & Construction",
+      "example_industry": "Property management",
+      "key_sic_codes": ["68320"],
+      "notes": "Management of real estate; Cardiff urban renewal."
+    },
+    {
+      "broad_sector": "Education & Training",
+      "example_industry": "Corporate training",
+      "key_sic_codes": ["85590"],
+      "notes": "Other education; Oxford academic spin-offs."
+    },
+    {
+      "broad_sector": "Education & Training",
+      "example_industry": "Vocational coding schools",
+      "key_sic_codes": ["85590"],
+      "notes": "Other education; Glasgow digital skills push."
+    },
+    {
+      "broad_sector": "Finance & Insurance",
+      "example_industry": "Insurtech",
+      "key_sic_codes": ["65120"],
+      "notes": "Non-life insurance; Edinburgh finance capital."
+    },
+    {
+      "broad_sector": "Finance & Insurance",
+      "example_industry": "Wealth management",
+      "key_sic_codes": ["66190"],
+      "notes": "Other activities auxiliary to financial services; Birmingham mid-market."
+    },
+    {
+      "broad_sector": "Retail & E-commerce",
+      "example_industry": "Fashion e-com",
+      "key_sic_codes": ["47910"],
+      "notes": "Retail by mail order; Manchester fashion hub."
+    },
+    {
+      "broad_sector": "Retail & E-commerce",
+      "example_industry": "Health & beauty online",
+      "key_sic_codes": ["47910"],
+      "notes": "Retail by mail order; Bristol wellness trend."
+    },
+    {
+      "broad_sector": "Manufacturing",
+      "example_industry": "Food processing",
+      "key_sic_codes": ["10890"],
+      "notes": "Other food; Glasgow's engineering ties in."
+    },
+    {
+      "broad_sector": "Manufacturing",
+      "example_industry": "Electronics",
+      "key_sic_codes": ["26100"],
+      "notes": "Electronic components; Export-oriented; Bristol aerospace links."
+    },
+    {
+      "broad_sector": "Construction",
+      "example_industry": "Building services",
+      "key_sic_codes": ["43210"],
+      "notes": "Electrical installation; Infrastructure boom; widespread in all cities."
+    },
+    {
+      "broad_sector": "Construction",
+      "example_industry": "Real estate development",
+      "key_sic_codes": ["41100"],
+      "notes": "Development; Property hot in Manchester/Leeds."
+    },
+    {
+      "broad_sector": "Professional Services",
+      "example_industry": "Management consulting",
+      "key_sic_codes": ["70229"],
+      "notes": "Other business support; One of the most registered codes in 2025."
+    },
+    {
+      "broad_sector": "Retail & E-commerce",
+      "example_industry": "Specialty retail",
+      "key_sic_codes": ["47789"],
+      "notes": "Other retail in stores; Common for niche e-com hybrids."
+    },
+    {
+      "broad_sector": "Tech & Digital",
+      "example_industry": "Web portals",
+      "key_sic_codes": ["63120"],
+      "notes": "Web portals; Growing with AI-driven content."
+    },
+    {
+      "broad_sector": "Healthcare & Biotech",
+      "example_industry": "Pharmaceuticals",
+      "key_sic_codes": ["46460"],
+      "notes": "Wholesale of pharma goods; Key in biotech hubs."
+    },
+    {
+      "broad_sector": "Construction",
+      "example_industry": "Commercial construction",
+      "key_sic_codes": ["41201"],
+      "notes": "Construction of commercial buildings; Booming in urban areas."
+    },
+    {
+      "broad_sector": "Manufacturing",
+      "example_industry": "Textiles",
+      "key_sic_codes": ["13940"],
+      "notes": "Manufacture of knitted/crocheted; Sustainable fashion trend."
+    },
+    {
+      "broad_sector": "Professional Services",
+      "example_industry": "Architectural activities",
+      "key_sic_codes": ["71111"],
+      "notes": "Architectural design; Tied to construction growth."
+    },
+    {
+      "broad_sector": "Creative & Media",
+      "example_industry": "Advertising",
+      "key_sic_codes": ["73110"],
+      "notes": "Your default; Digital agencies remain top-registered."
+    },
+    {
+      "broad_sector": "Retail & E-commerce",
+      "example_industry": "Food/beverage retail",
+      "key_sic_codes": ["47250"],
+      "notes": "Retail of beverages; Post-pandemic staple."
+    },
+    {
+      "broad_sector": "Tech & Digital",
+      "example_industry": "Data processing",
+      "key_sic_codes": ["63110"],
+      "notes": "Data processing/hosting; AI/data boom in 2025."
+    },
+    {
+      "broad_sector": "Hospitality & Tourism",
+      "example_industry": "Hotel management",
+      "key_sic_codes": ["55100"],
+      "notes": "Hotels; Liverpool tourism revival."
+    },
+    {
+      "broad_sector": "Hospitality & Tourism",
+      "example_industry": "Event planning",
+      "key_sic_codes": ["82301"],
+      "notes": "Event promotion; Edinburgh festival ties."
+    },
+    {
+      "broad_sector": "Agriculture & Environment",
+      "example_industry": "Sustainable farming",
+      "key_sic_codes": ["01110"],
+      "notes": "Growing of cereals; Rural-urban links in Sheffield."
+    },
+    {
+      "broad_sector": "Agriculture & Environment",
+      "example_industry": "Waste management",
+      "key_sic_codes": ["38210"],
+      "notes": "Treatment of non-hazardous waste; Bristol green tech."
+    },
+    {
+      "broad_sector": "Transport & Automotive",
+      "example_industry": "EV charging networks",
+      "key_sic_codes": ["35200"],
+      "notes": "Electricity distribution; Glasgow renewables."
+    },
+    {
+      "broad_sector": "Transport & Automotive",
+      "example_industry": "Logistics software",
+      "key_sic_codes": ["62012"],
+      "notes": "Software dev; Birmingham supply chain."
+    },
+    {
+      "broad_sector": "Non-Profit & Social",
+      "example_industry": "Charity services",
+      "key_sic_codes": ["94990"],
+      "notes": "Activities of other membership orgs; Cardiff community focus."
+    },
+    {
+      "broad_sector": "Non-Profit & Social",
+      "example_industry": "Social impact consulting",
+      "key_sic_codes": ["70229"],
+      "notes": "Business support; Oxford social enterprise."
+    },
+    {
+      "broad_sector": "Gaming & Entertainment",
+      "example_industry": "Mobile game dev",
+      "key_sic_codes": ["62011"],
+      "notes": "Ready-made interactive leisure software; Cardiff gaming."
+    },
+    {
+      "broad_sector": "Gaming & Entertainment",
+      "example_industry": "Esports management",
+      "key_sic_codes": ["93199"],
+      "notes": "Other sports; Emerging in Manchester."
+    }
+  ]
+}

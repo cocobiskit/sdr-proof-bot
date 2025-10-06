@@ -1,0 +1,268 @@
+{
+    "sources": {
+        "companies_house": {
+            "url": "https://find-and-update.company-information.service.gov.uk/",
+            "description": "Official UK company register",
+            "selectors": {
+                "company_list": "li.type-results-list__item, ul#results li",
+                "company_name": "a.type-company, h3.heading-medium a",
+                "company_number": "p.meta span",
+                "company_status": "strong"
+            }
+        },
+        "linkedin_sales_navigator": {
+            "url": "https://www.linkedin.com/sales",
+            "description": "Premium lead generation tool",
+            "data_points": [
+                "company_name",
+                "decision_maker_name",
+                "job_title",
+                "company_size",
+                "industry",
+                "location"
+            ]
+        },
+        "crunchbase": {
+            "url": "https://www.crunchbase.com/discover/organization.companies",
+            "selectors": {
+                "company_list": "div.cb-overflow-ellipsis, grid-row",
+                "company_name": "a.cb-link, span.identifier-label",
+                "website_link": "a[aria-label*='Website']",
+                "funding_info": "span.funding-total"
+            }
+        },
+        "beauhurst": {
+            "url": "https://www.beauhurst.com/research/",
+            "description": "UK high-growth companies database",
+            "selectors": {
+                "company_list": "div.company-row, tr.data-row",
+                "company_name": "h4 a, td.company-name a",
+                "sector": "span.sector-tag",
+                "location": "span.location"
+            }
+        },
+        "uk_tech_news": {
+            "url": "https://www.uktech.news/companies",
+            "selectors": {
+                "company_list": "article.company-card, div.company-listing",
+                "company_name": "h2 a, h3.company-name",
+                "website_link": "a.website, a[rel='nofollow']"
+            }
+        },
+        "techround": {
+            "url": "https://techround.co.uk/startups/",
+            "selectors": {
+                "company_list": "article.startup-item, div.company-profile",
+                "company_name": "h2.entry-title a, h3 a",
+                "description": "div.entry-content p"
+            }
+        },
+        "fintechmagazine": {
+            "url": "https://fintechmagazine.com/",
+            "selectors": {
+                "company_list": "article.article-card",
+                "company_name": "h3.article-title a",
+                "industry": "fintech"
+            }
+        },
+        "trustpilot_uk": {
+            "url": "https://uk.trustpilot.com/categories",
+            "selectors": {
+                "company_list": "div.paper_paper__1PY90, div.businessUnit-card",
+                "company_name": "p.typography_heading-xs__jSwUz a",
+                "website_link": "a.link_linkWrapper__5EJhh[href*='http']",
+                "rating": "div.star-rating"
+            }
+        },
+        "growthlist": {
+            "url": "https://www.growthlist.co.uk/",
+            "description": "Fast-growing UK companies",
+            "selectors": {
+                "company_list": "div.company-item, tr.company-row",
+                "company_name": "h3 a, td.name a",
+                "revenue": "td.revenue span",
+                "employees": "td.employees"
+            }
+        },
+        "dealroom": {
+            "url": "https://dealroom.co/lists/23308/uk-fast-growing-tech-companies",
+            "selectors": {
+                "company_list": "tr.company-row, div.list-item",
+                "company_name": "a.company-name, td a",
+                "website_link": "a[data-test='website-link']",
+                "employees": "td.employees"
+            }
+        },
+        "tech_nation": {
+            "url": "https://technation.io/",
+            "description": "UK tech ecosystem hub",
+            "selectors": {
+                "company_list": "div.company-card",
+                "company_name": "h3.company-title",
+                "location": "span.location-tag"
+            }
+        },
+        "google_maps_business": {
+            "url": "https://www.google.com/maps/search/",
+            "description": "Local business listings",
+            "selectors": {
+                "business_list": "div.Nv2PK, div[role='article']",
+                "business_name": "div.qBF1Pd, h3.OSrXXb",
+                "phone": "button[data-item-id*='phone']",
+                "website": "a[data-item-id='authority']"
+            }
+        },
+        "yell_uk": {
+            "url": "https://www.yell.com/",
+            "selectors": {
+                "business_list": "div.businessCapsule--mainContent",
+                "business_name": "h2.businessCapsule--name a",
+                "phone": "span.business--telephoneNumber",
+                "website": "a.businessCapsule--ctaLink[href*='http']",
+                "address": "span.business--address"
+            }
+        },
+        "yelp_uk": {
+            "url": "https://www.yelp.co.uk/",
+            "selectors": {
+                "business_list": "div[data-testid='serp-ia-card'], li.provider",
+                "business_name": "a.css-19v1rkv, h3 a",
+                "phone": "p.css-1p9ibgf",
+                "website": "a[href*='biz_redir']"
+            }
+        },
+        "startup_grind": {
+            "url": "https://www.startupgrind.com/",
+            "selectors": {
+                "company_list": "div.startup-card",
+                "company_name": "h4.startup-name"
+            }
+        },
+        "angel_list": {
+            "url": "https://angel.co/location/united-kingdom",
+            "selectors": {
+                "company_list": "div.component--result, div[data-test='StartupResult']",
+                "company_name": "h2 a, a.startup-link",
+                "website_link": "a.website",
+                "company_size": "div.company-size"
+            }
+        },
+        "featured_customers": {
+            "url": "https://www.featuredcustomers.com/",
+            "selectors": {
+                "company_list": "div.vendor-card",
+                "company_name": "h3.vendor-name a",
+                "website_link": "a.website-link"
+            }
+        },
+        "g2_crowd": {
+            "url": "https://www.g2.com/categories",
+            "selectors": {
+                "company_list": "div.product-listing, div[data-test='product-card']",
+                "company_name": "div.product-listing__product-name a",
+                "website_link": "a[data-track-label='Website']"
+            }
+        },
+        "capterra_uk": {
+            "url": "https://www.capterra.co.uk/",
+            "selectors": {
+                "company_list": "div.listing-card",
+                "company_name": "h3.listing-name a",
+                "website_link": "a.website-link",
+                "rating": "span.rating-number"
+            }
+        },
+        "fsb_uk": {
+            "url": "https://www.fsb.org.uk/",
+            "description": "Federation of Small Businesses",
+            "selectors": {
+                "member_list": "div.member-directory-item",
+                "business_name": "h3.member-name",
+                "category": "span.member-category"
+            }
+        },
+        "chamber_of_commerce": {
+            "url": "https://www.britishchambers.org.uk/",
+            "description": "British Chambers of Commerce",
+            "selectors": {
+                "member_list": "div.member-card",
+                "company_name": "h4.member-title"
+            }
+        }
+    },
+    "generic_website": {
+        "phone_patterns": [
+            "\\+44\\s?\\(?0?\\)?\\s?\\d{2,4}[\\s.-]?\\d{3,4}[\\s.-]?\\d{3,4}",
+            "\\(?0\\d{2,4}\\)?\\s?\\d{3,4}\\s?\\d{3,4}",
+            "\\+44\\s?7\\d{3}\\s?\\d{6}",
+            "07\\d{3}\\s?\\d{6}",
+            "\\+44\\s?\\d{10}",
+            "tel:\\+?44\\d+"
+        ],
+        "email_pattern": "[a-zA-Z0-9._%+'-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+        "linkedin_company_pattern": "linkedin\\.com/company/([^/\"\\s]+)",
+        "linkedin_profile_pattern": "linkedin\\.com/in/([^/\"\\s]+)",
+        "contact_page_links": [
+            "a[href*='contact']",
+            "a[href*='about']",
+            "a[href*='team']",
+            "a[href*='people']",
+            "a[href*='leadership']",
+            "a[href*='management']",
+            "a[href*='get-in-touch']",
+            "a[href*='reach-us']"
+        ],
+        "decision_maker_titles": [
+            "CEO",
+            "Chief Executive",
+            "Managing Director",
+            "Founder",
+            "Co-Founder",
+            "Director",
+            "Head of",
+            "VP",
+            "Vice President",
+            "Chief",
+            "Manager",
+            "Lead"
+        ],
+        "company_info_selectors": {
+            "address": "address, [itemprop='address'], div.address, p.address",
+            "industry": "[itemprop='industry'], span.industry, div.sector",
+            "company_size": "span.employees, div.company-size, [itemprop='numberOfEmployees']",
+            "social_links": "a[href*='linkedin.com'], a[href*='twitter.com'], a[href*='facebook.com']"
+        }
+    },
+    "api_sources": {
+        "companies_house_api": {
+            "base_url": "https://api.company-information.service.gov.uk",
+            "endpoints": {
+                "search": "/search/companies",
+                "company_profile": "/company/{company_number}",
+                "officers": "/company/{company_number}/officers"
+            },
+            "requires_auth": true
+        },
+        "clearbit": {
+            "base_url": "https://company.clearbit.com/v2",
+            "description": "Company enrichment API",
+            "requires_auth": true
+        },
+        "hunter_io": {
+            "base_url": "https://api.hunter.io/v2",
+            "endpoints": {
+                "domain_search": "/domain-search",
+                "email_finder": "/email-finder",
+                "email_verifier": "/email-verifier"
+            },
+            "requires_auth": true
+        }
+    },
+    "lead_qualification_criteria": {
+        "company_size": ["employee_count", "revenue"],
+        "industry_match": ["SIC_code", "industry_keywords"],
+        "growth_indicators": ["recent_funding", "hiring_activity", "news_mentions"],
+        "contact_availability": ["decision_maker_name", "email", "phone", "linkedin_profile"],
+        "engagement_signals": ["website_traffic", "technology_stack", "recent_activity"]
+    }
+}

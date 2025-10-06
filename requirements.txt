@@ -1,0 +1,31 @@
+#Core Libraries
+requests
+beautifulsoup4
+pandas
+lxml
+playwright
+playwright-stealth
+numpy
+
+#Data Validation & Parsing
+phonenumbers
+email-validator
+dnspython
+fuzzywuzzy
+
+#APIs & Integrations
+python-telegram-bot
+PyGithub
+tweepy
+twilio
+openai
+
+#Environment Management
+python-dotenv
+
+#Anti-Bot-Detection
+#playwright-stealth
+
+# BLOCKED: No Selenium to avoid conflicts
+# selenium
+# undetected-chromedriver

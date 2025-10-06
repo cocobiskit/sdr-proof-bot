@@ -1,0 +1,63 @@
+{
+    "sources": {
+        "companies_house": {
+            "description": "Selectors for multi-step scraping of UK Companies House.",
+            "start_url": "https://find-and-update.company-information.service.gov.uk/",
+            "navigation": {
+                "accept_cookies_button": "#accept-cookies-button",
+                "alphabetical_search_link": "a[href='/alphabetical-search']",
+                "search_input": "#companyName",
+                "search_submit": "#alphabetical-search-button"
+            },
+            "search_results_page": {
+                "result_rows": "table.govuk-table > tbody > tr.govuk-table__row",
+                "company_link": "td:nth-child(1) > a.govuk-link",
+                "company_status_cell": "td:nth-child(3)",
+                "active_status_text": "Active",
+                "pagination_next_link": ".govuk-pagination__next > a"
+            },
+            "company_overview_page": {
+                "registered_address": "dt:has-text('Registered office address') + dd",
+                "company_status": "#company-status",
+                "company_type": "#company-type",
+                "incorporation_date": "#company-creation-date",
+                "nature_of_business_sic": [
+                    "h2:has-text('Nature of business (SIC)') + ul li",
+                    "ul li:has-text(/\\d{5}/)"
+                ],
+                "people_tab_link": "#people-tab",
+                "accounts_next": "p:has-text('Next accounts')",
+                "accounts_last": "p:has-text('Last accounts')",
+                "confirmation_next": "p:has-text('Next statement')",
+                "confirmation_last": "p:has-text('Last statement')"
+            },
+            "officers_page": {
+                "officer_cards": ".appointment-block",
+                "officer_name_link": "a.govuk-link[href*='/officers/']",
+                "officer_role_status": "span[id^='officer-status-tag-']",
+                "active_role_text": "Active",
+                "officer_role": "p:has-text('Role:')",
+                "officer_occupation": "p:has-text('Occupation:')",
+                "officer_dob": "p:has-text('Date of birth:')",
+                "officer_appointed": "p:has-text('Appointed on:')",
+                "officer_nationality": "p:has-text('Nationality:')",
+                "officer_residence": "p:has-text('Country of residence:')"
+            },
+            "officer_appointments_page": {
+                "officer_dob": "#officer-date-of-birth-value",
+                "officer_nationality": "dd[id*='nationality-value']",
+                "officer_residence": "dd[id*='country-of-residence-value']",
+                "officer_occupation": "dd[id*='occupation-value']",
+                "officer_appointment_date": "dd[id*='appointed-value']"
+            }
+        }
+    },
+    "generic_website": {
+        "phone_patterns": [
+            "\\+44\\s?\\(?0\\d{4}\\)?\\s?\\d{3}\\s?\\d{3}",
+            "0\\d{4}\\s?\\d{3}\\s?\\d{3}",
+            "\\d{5}\\s?\\d{3}\\s?\\d{3}"
+        ],
+        "email_pattern": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"
+    }
+}
